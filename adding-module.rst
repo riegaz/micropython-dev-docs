@@ -29,7 +29,7 @@ other files in there. The order doesn't matter much.
             system_stm32.c \
             stm32_it.c \
             ...
-            mymodule.c
+            mymodule.c \
             ...
 
 The second file you will need to add to is ``esp8266.ld``, which is the map of

@@ -70,7 +70,6 @@ structure. Open the ``mymodule.c`` file and put this code inside:
 
     const mp_obj_module_t mp_module_mymodule = {
         .base = { &mp_type_module },
-        .name = MP_QSTR_mymodule,
         .globals = (mp_obj_dict_t*)&mp_module_mymodule_globals,
     };
 
